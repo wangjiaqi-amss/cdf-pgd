@@ -1,0 +1,14 @@
+# CDF-PGD experiments — Python 3.12+
+#
+# Floors are the first releases with official Python 3.12 support.
+# The exact versions used by a particular run are recorded in
+# results/environment.json at every run (see README).
+
+numpy>=2.0,<3                 # core arrays and linear algebra
+scipy>=1.13,<2                # sparse matrices, optimize (SLSQP / trust-constr), linalg
+pandas>=2.1,<3                # reads the UN DESA 2024 migration workbook
+openpyxl>=3.1,<4              # Excel backend for pandas
+matplotlib>=3.8,<4            # convergence plots and the denoising panel
+scikit-image>=0.24,<1         # Cameraman test image and the NLM baseline
+bm3d>=4.0,<5                  # BM3D baseline (single-threaded profile)
+threadpoolctl>=3.2,<4         # environment fingerprint (results/environment.json)
