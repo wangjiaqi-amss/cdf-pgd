@@ -1,0 +1,20 @@
+{
+  "description": "UN DESA International Migrant Stock 2024, both sexes, destination-origin entries",
+  "mirror_url": "https://www.kaggle.com/api/v1/datasets/download/muneebhassanf/un-international-migrant-stock-1990-2024",
+  "download_date_utc": "2026-09-27",
+  "archive_sha256": "5f9b23ead385e4c8490dd2daa08e72737ca862a465c51a64ff01d7baeed650c2",
+  "csv_filename": "cleaned_undesa_2024_ims_stock_by_sex_destination_and_origin_1990-2024.csv",
+  "csv_sha256": "a09a113e34974094484d56629a765c7da90b0cc8c89695c83c90cd1192a4f917",
+  "matrix_float64_c_order_sha256": "dca70176e1729919bc64b498a9f120bce2ba5364de8bca5f1acd164ee65d4a72",
+  "matrix_shape": [
+    233,
+    233
+  ],
+  "positive_entries": 9042,
+  "matrix_sum": 281956199,
+  "split_seed": 2024,
+  "test_entries": 904,
+  "training_entries": 8138,
+  "npz_filename": "migration_un2024.npz",
+  "npz_sha256": "f2586d839882f5da80c711fb2a8ea13f354fd858f47fd64dbd893ef92c74eb19"
+}
